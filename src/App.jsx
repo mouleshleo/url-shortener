@@ -13,6 +13,7 @@ function App() {
   };
 
   return (
+    <>
     <div className="p-6 w-96 mx-auto border  backdrop-blur-md shadow-xl border-slate-200 bg-slate-100/30 flex rounded-xl flex-col justify-center items-center mt-32">
       <h1 className="text-9xl font-bold mb-8 tracking-wide text-black/80"><span className="text-black/60 mr-7">URL</span><br></br>Shortener.</h1>
 
@@ -39,6 +40,10 @@ function App() {
         </p>
       )}
     </div>
+    <footer className="flex flex-col justify-center items-center mt-5 p-3 h-33">
+      <p></p>
+    </footer>
+    </>
   );
 }
 
